@@ -4,9 +4,15 @@
         <meta charset="UTF-8">
         <title>Prime code</title>
         <link rel="stylesheet" href="../style.css">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     </head>
     <body>
+    <header>
+        <p onclick="show(tools.home)">home</p>
+        <p onclick="show(tools.prime_check)">check</p>
+        <p onclick="show(tools.prime_create)">create</p>
+        <p onclick="show(tools.prime_code)">code</p>
+    </header>
         <h1>prime create</h1>
     <select id="createMethod" onchange="method()">
       <option value="digit" selected>桁数で生成</option>
