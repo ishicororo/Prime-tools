@@ -8,15 +8,17 @@
     </head>
     <body>
     <header>
-        <p onclick="show(tools.home)">home</p>
-        <p onclick="show(tools.prime_check)">check</p>
-        <p onclick="show(tools.prime_create)">create</p>
-        <p onclick="show(tools.prime_code)">code</p>
+        <a href="index.html">home</a>
+        <a href="tools/check.html">check</a>
+        <a href="tools/create.html">create</a>
+        <a href="tools/code.html">code</a>
     </header>
+    <main>
     <h1>prime check</h1>
     <input id="check" type="number" placeholder="判定したい数字を入力">
     <button onclick="check()">判定</button>
     <p id="checked"></p>
+    </main>
     <script src="../scripts/primes.js"></script>
     <script src="../scripts/script.js"></script>
     <script src="../scripts/check.js"></script>

@@ -8,11 +8,12 @@
     </head>
     <body>
     <header>
-        <p onclick="show(tools.home)">home</p>
-        <p onclick="show(tools.prime_check)">check</p>
-        <p onclick="show(tools.prime_create)">create</p>
-        <p onclick="show(tools.prime_code)">code</p>
+        <a href="index.html">home</a>
+        <a href="tools/check.html">check</a>
+        <a href="tools/create.html">create</a>
+        <a href="tools/code.html">code</a>
     </header>
+    <main>
         <h1>prime create</h1>
     <select id="createMethod" onchange="method()">
       <option value="digit" selected>桁数で生成</option>
@@ -24,6 +25,7 @@
     <button onclick="create()">生成</button>
     <a id="downloadLink" class="close" download="prime.txt">ダウンロード</a>
     <p id="created"></p>
+    </main>
     <script src="../scripts/primes.js"></script>
     <script src="../scripts/script.js"></script>
     <script src="../scripts/CPmethod.js"></script>

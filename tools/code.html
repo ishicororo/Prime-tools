@@ -8,17 +8,19 @@
     </head>
     <body>
     <header>
-        <p onclick="show(tools.home)">home</p>
-        <p onclick="show(tools.prime_check)">check</p>
-        <p onclick="show(tools.prime_create)">create</p>
-        <p onclick="show(tools.prime_code)">code</p>
+        <a href="index.html">home</a>
+        <a href="tools/check.html">check</a>
+        <a href="tools/create.html">create</a>
+        <a href="tools/code.html">code</a>
     </header>
+    <main>
         <h1>code decipher&create</h1>
         <input type="text" placeholder="暗号化したい文字列を入力" id="code_text">
         <input type="text" placeholder="鍵となる数字、文字列を入力　10文字以内、半角英数字" id="code_key">
         <p id="code_result"></p>
         <button onclick="execute()">暗号</button>
         <button onclick="returnCode()">復号</button>
+    </main>
     <script src="../scripts/primes.js"></script>
     <script src="../scripts/script.js"></script>
     <script src="../scripts/code.js"></script>
