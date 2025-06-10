@@ -25,6 +25,8 @@
         border-radius: 5px;
         text-align: center;
         color: white;
+    }
+    #home p{
         width: 100%;
     }
     #loadingMenu #loadBar{
