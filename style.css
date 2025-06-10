@@ -19,7 +19,7 @@
     main{
         margin-top: 60px;
     }
-    #home p{
+    #home p a{
         font-size: 30px;
         background-color: #aaa;
         border-radius: 5px;
