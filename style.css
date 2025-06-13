@@ -9,7 +9,7 @@
         width: 100%;
         margin-top: 0%;
    }
-   header a{
+   header p{
         background-color: #000;
         color: white;
    }
@@ -19,15 +19,12 @@
     main{
         margin-top: 60px;
     }
-    #home p a{
+    #home p{
         font-size: 30px;
         background-color: #aaa;
         border-radius: 5px;
         text-align: center;
         color: white;
-    }
-    #home p{
-        width: 100%;
     }
     #loadingMenu #loadBar{
         height: 5px;
