@@ -22,6 +22,9 @@ function execute(){
                correspondenceTable.push([i,keyUnit8Array[i]+k]);
           }
      }
+     console.log(keyUnit8Array);
+     console.log(stringUnit8Array);
+     console.log(correspondenceTable);
 }
 function returnCode(){
 }
